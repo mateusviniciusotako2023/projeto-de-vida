@@ -8,4 +8,20 @@
 }
 body{
     background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo-principal{
+flex-direction: column;
+display: flex;
+align-items: center;
+max-width: 1200px;
+width: 100%;
+justify-content: center;
+margin:0 auto;
+}
+.titulo-principal{
+    text-align: center;
+width: 100%;
+font-size: 32px;
 }
