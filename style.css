@@ -25,3 +25,18 @@ margin:0 auto;
 width: 100%;
 font-size: 32px;
 }
+.botao{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cyan;
+    color: #ff0303;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px ;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botão-ativo);
+    border-left: 2px solid var(--botão-ativo);
+    border-top: 2px solid var(--botão-ativo);
+    border-top: none;
+}
